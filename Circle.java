@@ -60,7 +60,7 @@ class Display{
     public static void main(String[] args) {
         Circle circle = new Circle(2.1,"Red");
         System.out.println(circle.Info());
-        Cylinder cylinder = new Cylinder(2.1,3.1,"Blue");
+        Cylinder cylinder = new Cylinder(2.5,3.1,"Blue");
         System.out.println(cylinder.Info());
     }
 

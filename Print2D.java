@@ -64,9 +64,9 @@ class Print3D extends Print2D{
 }
 class TestAll{
     public static void main(String[] args) {
-        Print2D print2D = new Print2D(2.2f,2.11f);
+        Print2D print2D = new Print2D();
         System.out.println(print2D);
-        Print3D print3D = new Print3D(2.1f,4.5f,6.2f);
+        Print3D print3D = new Print3D(7.6f,4.5f,4.6f);
             System.out.println(print3D);
     }
 }
