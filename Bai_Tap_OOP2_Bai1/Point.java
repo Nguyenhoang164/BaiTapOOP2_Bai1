@@ -68,7 +68,9 @@ class MovePoint extends Point{
       this.ySpeed = ySpeed;
     }
     public float[] getSpeed(){
-         float [] speed = {xSpeed,ySpeed};
+         float [] speed = new float[2];
+         speed[0] = xSpeed;
+         speed[1] = ySpeed;
          return speed;
     }
     @Override

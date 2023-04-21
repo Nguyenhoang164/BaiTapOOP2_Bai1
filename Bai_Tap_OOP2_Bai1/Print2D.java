@@ -54,7 +54,10 @@ class Print3D extends Print2D{
        this.z = z ;
    }
    public float[] getXYZ(){
-       float [] array = {x,y,z};
+       float [] array = new float[3];
+       array[0] = getX();
+       array[1] = getY();
+       array[2] = getZ();
        return array;
     }
     @Override
