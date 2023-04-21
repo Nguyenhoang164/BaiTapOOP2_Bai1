@@ -1,4 +1,4 @@
-package Bai_Tap_OOP2_Bai2;
+package Bai_Tap_OOP2_Bai2.Thuc_Hanh_Animal.Thuc_Hanh_All;
 
 public  abstract class Animal {
     public abstract String MakeSound () ;

@@ -1,3 +1,5 @@
+package Bai_Tap_OOP2_Bai1;
+
 import java.util.Arrays;
 
 public class Point {

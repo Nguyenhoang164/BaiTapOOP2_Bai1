@@ -1,3 +1,5 @@
+package Bai_Tap_OOP2_Bai1;
+
 public class Shape {
    private String color;
     private boolean filled ;
@@ -114,7 +116,7 @@ class RectangleTest {
 
     @Override
     public String toString() {
-        return "A Square with side="
+        return "A Bai_Tap_OOP2_Bai1.Square with side="
                 + getSide()
                 + ", which is a subclass of "
                 + super.toString();

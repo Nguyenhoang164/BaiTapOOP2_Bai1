@@ -1,3 +1,5 @@
+package Bai_Tap_OOP2_Bai1;
+
 public class People {
     private String name;
     private boolean gender;
@@ -39,7 +41,7 @@ public class People {
     }
 
     public void eat() {
-        System.out.println("People eating......");
+        System.out.println("Bai_Tap_OOP2_Bai1.People eating......");
     }
 
     public void sleep(){

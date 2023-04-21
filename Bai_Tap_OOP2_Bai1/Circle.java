@@ -1,3 +1,5 @@
+package Bai_Tap_OOP2_Bai1;
+
 public class Circle {
     double radius ;
     String color;
@@ -21,7 +23,7 @@ public class Circle {
         return radius*radius*3.14;
     }
     public String Info(){
-        return " class Circle had " + getArea() + " with " + getRadius() + " and " + getColor();
+        return " class Bai_Tap_OOP2_Bai1.Circle had " + getArea() + " with " + getRadius() + " and " + getColor();
     }
 }
 class Cylinder extends Circle{
@@ -52,7 +54,7 @@ class Cylinder extends Circle{
      }
     @Override
     public String Info(){
-        return " class Cylinder had " + getRadius() + " with " + getColor() + " have " + getArea() + " and " + getV() + " from " + super.Info();
+        return " class Bai_Tap_OOP2_Bai1.Cylinder had " + getRadius() + " with " + getColor() + " have " + getArea() + " and " + getV() + " from " + super.Info();
     }
 
 }
